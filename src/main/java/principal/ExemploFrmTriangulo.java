@@ -3,11 +3,12 @@
  */
 
 package principal;
-
-
+import visao.FrmTriangulo;
+        
 public class ExemploFrmTriangulo {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        FrmTriangulo janela = new FrmTriangulo();
+        janela.setVisible(true);
     }
 }
